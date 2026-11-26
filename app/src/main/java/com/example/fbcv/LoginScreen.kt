@@ -87,11 +87,10 @@ fun LoginScreen(onSuccess: (String) -> Unit) {
         Spacer(Modifier.height(16.dp))
         Button(
             onClick = {
-                error = when {
-                    registering && name.isBlank() -> "Escribe tu nombre"
-                    !email.contains("@") -> "El email no es válido"
-                    password.length < 6 -> "La contraseña debe tener al menos 6 caracteres"
-                    else -> null
+                error = if (registering) {
+                    AuthValidator.validateRegister(name, email, password)
+                } else {
+                    AuthValidator.validateLogin(email, password)
                 }
                 if (error == null) {
 
