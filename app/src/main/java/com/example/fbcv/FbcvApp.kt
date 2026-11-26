@@ -20,15 +20,19 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
 private data class BottomItem(val route: String, val label: String, val icon: ImageVector)
 
 private val bottomItems = listOf(
@@ -42,9 +46,13 @@ private val bottomItems = listOf(
 @Composable
 fun FbcvApp() {
     val navController = rememberNavController()
+    val context = LocalContext.current
+    val session = remember { SessionManager(context.applicationContext) }
+    val scope = rememberCoroutineScope()
+
     val backStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = backStackEntry?.destination?.route
-    val showBars = currentRoute != Routes.SPLASH
+    val showBars = currentRoute != Routes.SPLASH && currentRoute != Routes.LOGIN
 
     Scaffold(
         topBar = {
@@ -67,8 +75,22 @@ fun FbcvApp() {
         ) {
             composable(Routes.SPLASH) {
                 SplashScreen(onFinished = {
-                    navController.navigate(Routes.HOME) {
-                        popUpTo(Routes.SPLASH) { inclusive = true }
+                    scope.launch {
+                        val logged = session.isLoggedIn.first()
+                        val destination = if (logged) Routes.HOME else Routes.LOGIN
+                        navController.navigate(destination) {
+                            popUpTo(Routes.SPLASH) { inclusive = true }
+                        }
+                    }
+                })
+            }
+            composable(Routes.LOGIN) {
+                LoginScreen(onSuccess = { name ->
+                    scope.launch {
+                        session.saveSession(name)
+                        navController.navigate(Routes.HOME) {
+                            popUpTo(Routes.LOGIN) { inclusive = true }
+                        }
                     }
                 })
             }
@@ -86,7 +108,16 @@ fun FbcvApp() {
             composable(Routes.PROFILE) { PlaceholderScreen("Perfil del jugador") }
             composable(Routes.FAVORITES) { PlaceholderScreen("Favoritos") }
             composable(Routes.NOTIFICATIONS) { PlaceholderScreen("Notificaciones") }
-            composable(Routes.MENU) { PlaceholderScreen("Menu") }
+            composable(Routes.MENU) {
+                MenuScreen(onLogout = {
+                    scope.launch {
+                        session.clearSession()
+                        navController.navigate(Routes.LOGIN) {
+                            popUpTo(navController.graph.id) { inclusive = true }
+                        }
+                    }
+                })
+            }
         }
     }
 }
