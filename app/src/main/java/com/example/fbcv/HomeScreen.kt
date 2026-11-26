@@ -33,7 +33,6 @@ fun HomeScreen(
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // Boton "+" que lleva al perfil del jugador
         Box(
             modifier = Modifier.fillMaxWidth().height(100.dp),
             contentAlignment = Alignment.Center
@@ -50,7 +49,6 @@ fun HomeScreen(
             }
         }
 
-        // Tres bloques grandes, uno por seccion
         HomeBlock("CLUBS", FbcvGrey, FbcvBlue, Modifier.weight(1f), onClubs)
         HomeBlock("COMPETICIONES", FbcvOrange, Color.White, Modifier.weight(1f), onCompetitions)
         HomeBlock("PARTIDOS EN DIRECTO", FbcvBlue, Color.White, Modifier.weight(1f), onLive)
