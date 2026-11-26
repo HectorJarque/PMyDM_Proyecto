@@ -2,6 +2,7 @@ package com.example.fbcv
 
 object Routes {
     const val SPLASH = "splash"
+    const val LOGIN = "login"
     const val HOME = "home"
     const val CLUBS = "clubs"
     const val COMPETITIONS = "competitions"
