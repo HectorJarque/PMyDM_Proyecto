@@ -22,7 +22,6 @@ class ClubController(
         if (nombre.isNullOrBlank()) clubRepository.findAll()
         else clubRepository.findByNombreContainingIgnoreCase(nombre)
 
-    // GET /api/clubes/{id}  -> pestana "Detalle"
     @GetMapping("/{id}")
     fun detalle(@PathVariable id: String): ResponseEntity<Club> =
         clubRepository.findById(id).orElse(null)
@@ -36,13 +35,13 @@ class ClubController(
     ): ResponseEntity<Any> {
         val club = clubRepository.findById(id).orElse(null)
             ?: return noEncontrado("Club no encontrado")
-        val equipo = club.equipos.firstOrNull { equipoId == null || it.id == equipoId }
+        val equipo = club.equipos.firstOrNull { equipoId == null || it.equipoId == equipoId }
             ?: return noEncontrado("El club no tiene ese equipo")
         val stats = equipo.estadisticas
             ?: return noEncontrado("El equipo no tiene estadísticas")
 
         val jugadores = jugadorRepository.findByClubId(id)
-            .filter { it.equipoId == null || it.equipoId == equipo.id }
+            .filter { it.equipoId == null || it.equipoId == equipo.equipoId }
             .sortedBy { it.nombre }
 
         return ResponseEntity.ok(

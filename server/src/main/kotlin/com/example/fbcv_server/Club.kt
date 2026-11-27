@@ -3,6 +3,7 @@ package com.example.fbcv_server
 import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document
 
+
 @Document(collection = "clubes")
 data class Club(
     @Id val id: String? = null,
@@ -24,8 +25,9 @@ data class Equipacion(
     val pantalones: String? = null
 )
 
+
 data class Equipo(
-    val id: String,
+    val equipoId: String,
     val nombre: String,
     val categoria: String? = null,
     val competicionId: String? = null,
