@@ -1,0 +1,236 @@
+[
+  {
+    "_id": "partido-1",
+    "competicionId": "comp-1",
+    "categoria": "Junior Masculino Nivel Autonómico",
+    "fase": "Fase Regular",
+    "local": {
+      "clubId": "club-1",
+      "nombre": "CB Turia Valencia",
+      "escudo": null
+    },
+    "visitante": {
+      "clubId": "club-2",
+      "nombre": "CB Albufera",
+      "escudo": null
+    },
+    "puntosLocal": 72,
+    "puntosVisitante": 65,
+    "fecha": "2026-11-08",
+    "hora": "12:00",
+    "jornada": "J6",
+    "pabellon": {
+      "nombre": "Pabellón Municipal Turia",
+      "direccion": "C/ Ejemplo 10, Valencia"
+    },
+    "enDirecto": false
+  },
+  {
+    "_id": "partido-2",
+    "competicionId": "comp-1",
+    "categoria": "Junior Masculino Nivel Autonómico",
+    "fase": "Fase Regular",
+    "local": {
+      "clubId": "club-3",
+      "nombre": "CB Marina Alta",
+      "escudo": null
+    },
+    "visitante": {
+      "clubId": "club-4",
+      "nombre": "CB Horta Nord",
+      "escudo": null
+    },
+    "puntosLocal": 58,
+    "puntosVisitante": 61,
+    "fecha": "2026-11-08",
+    "hora": "17:30",
+    "jornada": "J6",
+    "pabellon": {
+      "nombre": "Pabellón Marina",
+      "direccion": "C/ Ejemplo 10, Valencia"
+    },
+    "enDirecto": false
+  },
+  {
+    "_id": "partido-3",
+    "competicionId": "comp-1",
+    "categoria": "Junior Masculino Nivel Autonómico",
+    "fase": "Fase Regular",
+    "local": {
+      "clubId": "club-2",
+      "nombre": "CB Albufera",
+      "escudo": null
+    },
+    "visitante": {
+      "clubId": "club-3",
+      "nombre": "CB Marina Alta",
+      "escudo": null
+    },
+    "puntosLocal": 80,
+    "puntosVisitante": 77,
+    "fecha": "2026-11-15",
+    "hora": "12:15",
+    "jornada": "J7",
+    "pabellon": {
+      "nombre": "Pabellón Albufera",
+      "direccion": "C/ Ejemplo 10, Valencia"
+    },
+    "enDirecto": false
+  },
+  {
+    "_id": "partido-4",
+    "competicionId": "comp-1",
+    "categoria": "Junior Masculino Nivel Autonómico",
+    "fase": "Fase Regular",
+    "local": {
+      "clubId": "club-4",
+      "nombre": "CB Horta Nord",
+      "escudo": null
+    },
+    "visitante": {
+      "clubId": "club-1",
+      "nombre": "CB Turia Valencia",
+      "escudo": null
+    },
+    "puntosLocal": 66,
+    "puntosVisitante": 70,
+    "fecha": "2026-11-15",
+    "hora": "18:00",
+    "jornada": "J7",
+    "pabellon": {
+      "nombre": "Pabellón Horta",
+      "direccion": "C/ Ejemplo 10, Valencia"
+    },
+    "enDirecto": false
+  },
+  {
+    "_id": "partido-5",
+    "competicionId": "comp-1",
+    "categoria": "Junior Masculino Nivel Autonómico",
+    "fase": "Fase Regular",
+    "local": {
+      "clubId": "club-1",
+      "nombre": "CB Turia Valencia",
+      "escudo": null
+    },
+    "visitante": {
+      "clubId": "club-3",
+      "nombre": "CB Marina Alta",
+      "escudo": null
+    },
+    "puntosLocal": 75,
+    "puntosVisitante": 60,
+    "fecha": "2026-11-22",
+    "hora": "12:00",
+    "jornada": "J8",
+    "pabellon": {
+      "nombre": "Pabellón Municipal Turia",
+      "direccion": "C/ Ejemplo 10, Valencia"
+    },
+    "enDirecto": false
+  },
+  {
+    "_id": "partido-6",
+    "competicionId": "comp-1",
+    "categoria": "Junior Masculino Nivel Autonómico",
+    "fase": "Fase Regular",
+    "local": {
+      "clubId": "club-2",
+      "nombre": "CB Albufera",
+      "escudo": null
+    },
+    "visitante": {
+      "clubId": "club-4",
+      "nombre": "CB Horta Nord",
+      "escudo": null
+    },
+    "puntosLocal": 69,
+    "puntosVisitante": 71,
+    "fecha": "2026-11-22",
+    "hora": "16:00",
+    "jornada": "J8",
+    "pabellon": {
+      "nombre": "Pabellón Albufera",
+      "direccion": "C/ Ejemplo 10, Valencia"
+    },
+    "enDirecto": false
+  },
+  {
+    "_id": "partido-7",
+    "competicionId": "comp-1",
+    "categoria": "Junior Masculino Nivel Autonómico",
+    "fase": "Fase Regular",
+    "local": {
+      "clubId": "club-1",
+      "nombre": "CB Turia Valencia",
+      "escudo": null
+    },
+    "visitante": {
+      "clubId": "club-4",
+      "nombre": "CB Horta Nord",
+      "escudo": null
+    },
+    "puntosLocal": 39,
+    "puntosVisitante": 35,
+    "fecha": "2026-11-27",
+    "hora": "12:15",
+    "jornada": "J9",
+    "pabellon": {
+      "nombre": "Pabellón Municipal Turia",
+      "direccion": "C/ Ejemplo 10, Valencia"
+    },
+    "enDirecto": true
+  },
+  {
+    "_id": "partido-8",
+    "competicionId": "comp-1",
+    "categoria": "Junior Masculino Nivel Autonómico",
+    "fase": "Fase Regular",
+    "local": {
+      "clubId": "club-2",
+      "nombre": "CB Albufera",
+      "escudo": null
+    },
+    "visitante": {
+      "clubId": "club-3",
+      "nombre": "CB Marina Alta",
+      "escudo": null
+    },
+    "puntosLocal": 16,
+    "puntosVisitante": 32,
+    "fecha": "2026-11-27",
+    "hora": "12:30",
+    "jornada": "J9",
+    "pabellon": {
+      "nombre": "Pabellón Albufera",
+      "direccion": "C/ Ejemplo 10, Valencia"
+    },
+    "enDirecto": true
+  },
+  {
+    "_id": "partido-9",
+    "competicionId": "comp-1",
+    "categoria": "Junior Masculino Nivel Autonómico",
+    "fase": "Fase Regular",
+    "local": {
+      "clubId": "club-3",
+      "nombre": "CB Marina Alta",
+      "escudo": null
+    },
+    "visitante": {
+      "clubId": "club-1",
+      "nombre": "CB Turia Valencia",
+      "escudo": null
+    },
+    "puntosLocal": null,
+    "puntosVisitante": null,
+    "fecha": "2026-12-06",
+    "hora": "12:00",
+    "jornada": "J10",
+    "pabellon": {
+      "nombre": "Pabellón Marina",
+      "direccion": "C/ Ejemplo 10, Valencia"
+    },
+    "enDirecto": false
+  }
+]

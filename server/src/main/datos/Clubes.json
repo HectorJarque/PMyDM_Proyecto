@@ -1,0 +1,170 @@
+[
+  {
+    "_id": "club-1",
+    "nombre": "CB Turia Valencia",
+    "escudo": null,
+    "contacto": {
+      "persona": "Persona de contacto 1",
+      "telefono": "600000001",
+      "email": "club1@ejemplo.com"
+    },
+    "equipacion": {
+      "camiseta": "Azul / Blanco",
+      "pantalones": "Azul / Blanco"
+    },
+    "equipos": [
+      {
+        "equipoId": "eq-1",
+        "nombre": "CB Turia Valencia Junior",
+        "categoria": "Junior Masculino Nivel Autonómico",
+        "competicionId": "comp-1",
+        "grupo": "Fase Regular - Gr A",
+        "estadisticas": {
+          "partidos": 8,
+          "victorias": 7,
+          "derrotas": 1,
+          "puntosFavor": 564,
+          "puntosContra": 478,
+          "tirosLibres": {
+            "aciertos": 96,
+            "intentos": 124
+          },
+          "tiros2": {
+            "aciertos": 168,
+            "intentos": 290
+          },
+          "tiros3": {
+            "aciertos": 44,
+            "intentos": 150
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "club-2",
+    "nombre": "CB Albufera",
+    "escudo": null,
+    "contacto": {
+      "persona": "Persona de contacto 2",
+      "telefono": "600000002",
+      "email": "club2@ejemplo.com"
+    },
+    "equipacion": {
+      "camiseta": "Naranja / Negro",
+      "pantalones": "Naranja / Negro"
+    },
+    "equipos": [
+      {
+        "equipoId": "eq-2",
+        "nombre": "CB Albufera Junior",
+        "categoria": "Junior Masculino Nivel Autonómico",
+        "competicionId": "comp-1",
+        "grupo": "Fase Regular - Gr A",
+        "estadisticas": {
+          "partidos": 8,
+          "victorias": 5,
+          "derrotas": 3,
+          "puntosFavor": 494,
+          "puntosContra": 470,
+          "tirosLibres": {
+            "aciertos": 80,
+            "intentos": 118
+          },
+          "tiros2": {
+            "aciertos": 150,
+            "intentos": 280
+          },
+          "tiros3": {
+            "aciertos": 38,
+            "intentos": 140
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "club-3",
+    "nombre": "CB Marina Alta",
+    "escudo": null,
+    "contacto": {
+      "persona": "Persona de contacto 3",
+      "telefono": "600000003",
+      "email": "club3@ejemplo.com"
+    },
+    "equipacion": {
+      "camiseta": "Rojo / Blanco",
+      "pantalones": "Rojo / Blanco"
+    },
+    "equipos": [
+      {
+        "equipoId": "eq-3",
+        "nombre": "CB Marina Alta Junior",
+        "categoria": "Junior Masculino Nivel Autonómico",
+        "competicionId": "comp-1",
+        "grupo": "Fase Regular - Gr A",
+        "estadisticas": {
+          "partidos": 8,
+          "victorias": 3,
+          "derrotas": 5,
+          "puntosFavor": 440,
+          "puntosContra": 462,
+          "tirosLibres": {
+            "aciertos": 70,
+            "intentos": 110
+          },
+          "tiros2": {
+            "aciertos": 140,
+            "intentos": 270
+          },
+          "tiros3": {
+            "aciertos": 30,
+            "intentos": 135
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "club-4",
+    "nombre": "CB Horta Nord",
+    "escudo": null,
+    "contacto": {
+      "persona": "Persona de contacto 4",
+      "telefono": "600000004",
+      "email": "club4@ejemplo.com"
+    },
+    "equipacion": {
+      "camiseta": "Verde / Negro",
+      "pantalones": "Verde / Negro"
+    },
+    "equipos": [
+      {
+        "equipoId": "eq-4",
+        "nombre": "CB Horta Nord Junior",
+        "categoria": "Junior Masculino Nivel Autonómico",
+        "competicionId": "comp-1",
+        "grupo": "Fase Regular - Gr A",
+        "estadisticas": {
+          "partidos": 8,
+          "victorias": 1,
+          "derrotas": 7,
+          "puntosFavor": 400,
+          "puntosContra": 488,
+          "tirosLibres": {
+            "aciertos": 60,
+            "intentos": 105
+          },
+          "tiros2": {
+            "aciertos": 128,
+            "intentos": 260
+          },
+          "tiros3": {
+            "aciertos": 28,
+            "intentos": 130
+          }
+        }
+      }
+    ]
+  }
+]

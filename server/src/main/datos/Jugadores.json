@@ -1,0 +1,290 @@
+[
+  {
+    "_id": "jug-1",
+    "nombre": "Dani Tormo Roig",
+    "clubId": "club-1",
+    "equipoId": "eq-1",
+    "estadisticas": {
+      "partidosJugados": 8,
+      "puntosTotales": 149,
+      "minutosTotales": 224,
+      "minutosPorPartido": 28
+    }
+  },
+  {
+    "_id": "jug-2",
+    "nombre": "Biel Guillem Climent",
+    "clubId": "club-1",
+    "equipoId": "eq-1",
+    "estadisticas": {
+      "partidosJugados": 8,
+      "puntosTotales": 124,
+      "minutosTotales": 208,
+      "minutosPorPartido": 26
+    }
+  },
+  {
+    "_id": "jug-3",
+    "nombre": "Lucas Ferrer Tormo",
+    "clubId": "club-1",
+    "equipoId": "eq-1",
+    "estadisticas": {
+      "partidosJugados": 7,
+      "puntosTotales": 101,
+      "minutosTotales": 168,
+      "minutosPorPartido": 24
+    }
+  },
+  {
+    "_id": "jug-4",
+    "nombre": "Nuno Máñez Escrivà",
+    "clubId": "club-1",
+    "equipoId": "eq-1",
+    "estadisticas": {
+      "partidosJugados": 8,
+      "puntosTotales": 78,
+      "minutosTotales": 160,
+      "minutosPorPartido": 20
+    }
+  },
+  {
+    "_id": "jug-5",
+    "nombre": "Hugo Alcaraz Cerdà",
+    "clubId": "club-1",
+    "equipoId": "eq-1",
+    "estadisticas": {
+      "partidosJugados": 6,
+      "puntosTotales": 67,
+      "minutosTotales": 96,
+      "minutosPorPartido": 16
+    }
+  },
+  {
+    "_id": "jug-6",
+    "nombre": "Nacho Escrivà Moreno",
+    "clubId": "club-1",
+    "equipoId": "eq-1",
+    "estadisticas": {
+      "partidosJugados": 5,
+      "puntosTotales": 45,
+      "minutosTotales": 60,
+      "minutosPorPartido": 12
+    }
+  },
+  {
+    "_id": "jug-7",
+    "nombre": "Saúl Navarro Ribes",
+    "clubId": "club-2",
+    "equipoId": "eq-2",
+    "estadisticas": {
+      "partidosJugados": 8,
+      "puntosTotales": 131,
+      "minutosTotales": 224,
+      "minutosPorPartido": 28
+    }
+  },
+  {
+    "_id": "jug-8",
+    "nombre": "Oriol Llopis Guillem",
+    "clubId": "club-2",
+    "equipoId": "eq-2",
+    "estadisticas": {
+      "partidosJugados": 8,
+      "puntosTotales": 108,
+      "minutosTotales": 208,
+      "minutosPorPartido": 26
+    }
+  },
+  {
+    "_id": "jug-9",
+    "nombre": "Gonzalo Cuenca Navarro",
+    "clubId": "club-2",
+    "equipoId": "eq-2",
+    "estadisticas": {
+      "partidosJugados": 7,
+      "puntosTotales": 88,
+      "minutosTotales": 168,
+      "minutosPorPartido": 24
+    }
+  },
+  {
+    "_id": "jug-10",
+    "nombre": "Álex Gil Pons",
+    "clubId": "club-2",
+    "equipoId": "eq-2",
+    "estadisticas": {
+      "partidosJugados": 8,
+      "puntosTotales": 69,
+      "minutosTotales": 160,
+      "minutosPorPartido": 20
+    }
+  },
+  {
+    "_id": "jug-11",
+    "nombre": "Joan Cerdà Monleón",
+    "clubId": "club-2",
+    "equipoId": "eq-2",
+    "estadisticas": {
+      "partidosJugados": 6,
+      "puntosTotales": 59,
+      "minutosTotales": 96,
+      "minutosPorPartido": 16
+    }
+  },
+  {
+    "_id": "jug-12",
+    "nombre": "Eloy Pons Sanchis",
+    "clubId": "club-2",
+    "equipoId": "eq-2",
+    "estadisticas": {
+      "partidosJugados": 5,
+      "puntosTotales": 39,
+      "minutosTotales": 60,
+      "minutosPorPartido": 12
+    }
+  },
+  {
+    "_id": "jug-13",
+    "nombre": "Jordi Furió Ferrer",
+    "clubId": "club-3",
+    "equipoId": "eq-3",
+    "estadisticas": {
+      "partidosJugados": 8,
+      "puntosTotales": 117,
+      "minutosTotales": 224,
+      "minutosPorPartido": 28
+    }
+  },
+  {
+    "_id": "jug-14",
+    "nombre": "Leo Soler Llopis",
+    "clubId": "club-3",
+    "equipoId": "eq-3",
+    "estadisticas": {
+      "partidosJugados": 8,
+      "puntosTotales": 96,
+      "minutosTotales": 208,
+      "minutosPorPartido": 26
+    }
+  },
+  {
+    "_id": "jug-15",
+    "nombre": "Marc Roig Furió",
+    "clubId": "club-3",
+    "equipoId": "eq-3",
+    "estadisticas": {
+      "partidosJugados": 7,
+      "puntosTotales": 79,
+      "minutosTotales": 168,
+      "minutosPorPartido": 24
+    }
+  },
+  {
+    "_id": "jug-16",
+    "nombre": "Rubén Moreno Peris",
+    "clubId": "club-3",
+    "equipoId": "eq-3",
+    "estadisticas": {
+      "partidosJugados": 8,
+      "puntosTotales": 61,
+      "minutosTotales": 160,
+      "minutosPorPartido": 20
+    }
+  },
+  {
+    "_id": "jug-17",
+    "nombre": "Toni Monleón Bosch",
+    "clubId": "club-3",
+    "equipoId": "eq-3",
+    "estadisticas": {
+      "partidosJugados": 6,
+      "puntosTotales": 52,
+      "minutosTotales": 96,
+      "minutosPorPartido": 16
+    }
+  },
+  {
+    "_id": "jug-18",
+    "nombre": "Víctor Peris Máñez",
+    "clubId": "club-3",
+    "equipoId": "eq-3",
+    "estadisticas": {
+      "partidosJugados": 5,
+      "puntosTotales": 35,
+      "minutosTotales": 60,
+      "minutosPorPartido": 12
+    }
+  },
+  {
+    "_id": "jug-19",
+    "nombre": "Aitor Beltrán Cuenca",
+    "clubId": "club-4",
+    "equipoId": "eq-4",
+    "estadisticas": {
+      "partidosJugados": 8,
+      "puntosTotales": 104,
+      "minutosTotales": 224,
+      "minutosPorPartido": 28
+    }
+  },
+  {
+    "_id": "jug-20",
+    "nombre": "Iván Climent Soler",
+    "clubId": "club-4",
+    "equipoId": "eq-4",
+    "estadisticas": {
+      "partidosJugados": 8,
+      "puntosTotales": 88,
+      "minutosTotales": 208,
+      "minutosPorPartido": 26
+    }
+  },
+  {
+    "_id": "jug-21",
+    "nombre": "Adrià Ribes Beltrán",
+    "clubId": "club-4",
+    "equipoId": "eq-4",
+    "estadisticas": {
+      "partidosJugados": 7,
+      "puntosTotales": 72,
+      "minutosTotales": 168,
+      "minutosPorPartido": 24
+    }
+  },
+  {
+    "_id": "jug-22",
+    "nombre": "Raúl Sanchis Part",
+    "clubId": "club-4",
+    "equipoId": "eq-4",
+    "estadisticas": {
+      "partidosJugados": 8,
+      "puntosTotales": 56,
+      "minutosTotales": 160,
+      "minutosPorPartido": 20
+    }
+  },
+  {
+    "_id": "jug-23",
+    "nombre": "Sergi Bosch Alcaraz",
+    "clubId": "club-4",
+    "equipoId": "eq-4",
+    "estadisticas": {
+      "partidosJugados": 6,
+      "puntosTotales": 48,
+      "minutosTotales": 96,
+      "minutosPorPartido": 16
+    }
+  },
+  {
+    "_id": "jug-24",
+    "nombre": "Pau Part Gil",
+    "clubId": "club-4",
+    "equipoId": "eq-4",
+    "estadisticas": {
+      "partidosJugados": 5,
+      "puntosTotales": 32,
+      "minutosTotales": 60,
+      "minutosPorPartido": 12
+    }
+  }
+]

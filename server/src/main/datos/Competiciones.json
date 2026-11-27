@@ -1,0 +1,132 @@
+[
+  {
+    "_id": "comp-1",
+    "tipo": "FBCV (SENIOR Y JUNIOR) + FAP JUNIOR",
+    "nombre": "Junior Masculino Nivel Autonómico",
+    "categoria": "Junior Masculino",
+    "fase": "Fase Regular",
+    "grupo": "Grupo A",
+    "clasificacion": [
+      {
+        "equipo": "CB Turia Valencia Junior",
+        "clubId": "club-1",
+        "partidos": 8,
+        "victorias": 7,
+        "derrotas": 1,
+        "puntosFavor": 564,
+        "puntosContra": 478,
+        "puntos": 15
+      },
+      {
+        "equipo": "CB Albufera Junior",
+        "clubId": "club-2",
+        "partidos": 8,
+        "victorias": 5,
+        "derrotas": 3,
+        "puntosFavor": 494,
+        "puntosContra": 470,
+        "puntos": 13
+      },
+      {
+        "equipo": "CB Marina Alta Junior",
+        "clubId": "club-3",
+        "partidos": 8,
+        "victorias": 3,
+        "derrotas": 5,
+        "puntosFavor": 440,
+        "puntosContra": 462,
+        "puntos": 11
+      },
+      {
+        "equipo": "CB Horta Nord Junior",
+        "clubId": "club-4",
+        "partidos": 8,
+        "victorias": 1,
+        "derrotas": 7,
+        "puntosFavor": 400,
+        "puntosContra": 488,
+        "puntos": 9
+      }
+    ]
+  },
+  {
+    "_id": "comp-2",
+    "tipo": "IR (CADETE, INFANTIL Y MINI) + FAP IR",
+    "nombre": "Cadete Femenino",
+    "categoria": "Cadete Femenino",
+    "fase": "Fase Regular",
+    "grupo": "Grupo B",
+    "clasificacion": [
+      {
+        "equipo": "CB Mislata Cadete F",
+        "clubId": null,
+        "partidos": 6,
+        "victorias": 5,
+        "derrotas": 1,
+        "puntosFavor": 380,
+        "puntosContra": 310,
+        "puntos": 11
+      },
+      {
+        "equipo": "CB Sagunt Cadete F",
+        "clubId": null,
+        "partidos": 6,
+        "victorias": 3,
+        "derrotas": 3,
+        "puntosFavor": 350,
+        "puntosContra": 340,
+        "puntos": 9
+      },
+      {
+        "equipo": "CB Gandia Cadete F",
+        "clubId": null,
+        "partidos": 6,
+        "victorias": 1,
+        "derrotas": 5,
+        "puntosFavor": 300,
+        "puntosContra": 380,
+        "puntos": 7
+      }
+    ]
+  },
+  {
+    "_id": "comp-3",
+    "tipo": "LLIGA VALENCIANA",
+    "nombre": "Liga Valenciana Senior",
+    "categoria": "Senior Masculino",
+    "fase": "Fase Regular",
+    "grupo": "Grupo Único",
+    "clasificacion": [
+      {
+        "equipo": "CB Xàtiva Senior",
+        "clubId": null,
+        "partidos": 5,
+        "victorias": 4,
+        "derrotas": 1,
+        "puntosFavor": 390,
+        "puntosContra": 330,
+        "puntos": 9
+      },
+      {
+        "equipo": "CB Alzira Senior",
+        "clubId": null,
+        "partidos": 5,
+        "victorias": 2,
+        "derrotas": 3,
+        "puntosFavor": 360,
+        "puntosContra": 365,
+        "puntos": 7
+      },
+      {
+        "equipo": "CB Sueca Senior",
+        "clubId": null,
+        "partidos": 5,
+        "victorias": 1,
+        "derrotas": 4,
+        "puntosFavor": 320,
+        "puntosContra": 375,
+        "puntos": 6
+      }
+    ]
+  }
+]
